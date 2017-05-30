@@ -1,0 +1,281 @@
+************* Module EP2
+W: 24, 0: Cannot decode using encoding "ascii", unexpected byte at position 24 (invalid-encoded-data)
+W: 37, 0: Cannot decode using encoding "ascii", unexpected byte at position 5 (invalid-encoded-data)
+W: 45, 0: Cannot decode using encoding "ascii", unexpected byte at position 56 (invalid-encoded-data)
+W: 53, 0: Cannot decode using encoding "ascii", unexpected byte at position 55 (invalid-encoded-data)
+W: 55, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W: 69, 0: Cannot decode using encoding "ascii", unexpected byte at position 40 (invalid-encoded-data)
+W: 73, 0: Cannot decode using encoding "ascii", unexpected byte at position 55 (invalid-encoded-data)
+W: 74, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W: 79, 0: Cannot decode using encoding "ascii", unexpected byte at position 35 (invalid-encoded-data)
+C:  3, 0: Line too long (116/100) (line-too-long)
+C:  5, 0: Exactly one space required around assignment
+s1=[2,3,4,5,6]
+  ^ (bad-whitespace)
+C:  5, 0: Exactly one space required after comma
+s1=[2,3,4,5,6]
+     ^ (bad-whitespace)
+C:  5, 0: Exactly one space required after comma
+s1=[2,3,4,5,6]
+       ^ (bad-whitespace)
+C:  5, 0: Exactly one space required after comma
+s1=[2,3,4,5,6]
+         ^ (bad-whitespace)
+C:  5, 0: Exactly one space required after comma
+s1=[2,3,4,5,6]
+           ^ (bad-whitespace)
+C:  6, 0: Exactly one space required around assignment
+s2=[1.6,1.7,1.8,1.9,2]
+  ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+s2=[1.6,1.7,1.8,1.9,2]
+       ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+s2=[1.6,1.7,1.8,1.9,2]
+           ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+s2=[1.6,1.7,1.8,1.9,2]
+               ^ (bad-whitespace)
+C:  6, 0: Exactly one space required after comma
+s2=[1.6,1.7,1.8,1.9,2]
+                   ^ (bad-whitespace)
+C:  7, 0: Exactly one space required around assignment
+s1r=int(random.choice(s1))
+   ^ (bad-whitespace)
+C:  8, 0: Exactly one space required around assignment
+s2r=int(random.choice(s2))
+   ^ (bad-whitespace)
+C: 10, 0: Line too long (121/100) (line-too-long)
+C: 12, 0: Line too long (133/100) (line-too-long)
+C: 12, 0: Exactly one space required around assignment
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+          ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                         ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                               ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                                                     ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                                                           ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                                                                                    ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                                                                                          ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                                                                                                                       ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+Inspermons={"Hage":[50.11,35.34,60.17], "Tori":[45.54,40.19,55.32], "Pelicas":[40.76,45.39,50.18], "Fernandelas":[35.42,50.71,50.27]}
+                                                                                                                             ^ (bad-whitespace)
+C: 13, 0: Exactly one space required around assignment
+adversario=["Hage","Tori","Pelicas","Fernandelas"]
+          ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+adversario=["Hage","Tori","Pelicas","Fernandelas"]
+                  ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+adversario=["Hage","Tori","Pelicas","Fernandelas"]
+                         ^ (bad-whitespace)
+C: 13, 0: Exactly one space required after comma
+adversario=["Hage","Tori","Pelicas","Fernandelas"]
+                                   ^ (bad-whitespace)
+C: 17, 0: Line too long (110/100) (line-too-long)
+C: 18, 0: Exactly one space required after comparison
+        if Inspermons[bixo][2] <=0:
+                               ^^ (bad-whitespace)
+C: 19, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 20, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 22, 0: Line too long (112/100) (line-too-long)
+C: 23, 0: Exactly one space required after comparison
+        if Inspermons[outro][2] <=0:
+                                ^^ (bad-whitespace)
+C: 24, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 27, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 29, 0: Trailing whitespace (trailing-whitespace)
+C: 30, 0: Trailing whitespace (trailing-whitespace)
+C: 33, 0: Exactly one space required around assignment
+t=10000
+ ^ (bad-whitespace)
+C: 34, 0: Exactly one space required around assignment
+x=50000
+ ^ (bad-whitespace)
+C: 35, 0: Exactly one space required around assignment
+outro=str(random.choice(adversario))
+     ^ (bad-whitespace)
+C: 39, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 41, 0: Line too long (102/100) (line-too-long)
+C: 41, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 43, 0: Line too long (104/100) (line-too-long)
+C: 43, 0: Exactly one space required around assignment
+bixo=input("Os personagens disponiveis sao: Hage, Tori, Pelicas e Fernandelas. Escolha entre um deles:")
+    ^ (bad-whitespace)
+C: 45, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 49, 0: Line too long (115/100) (line-too-long)
+C: 49, 0: Exactly one space required around assignment
+    atividade=int(input("Agora, selecione sua atividade, se quiser passear digite 1, se quiser dormir digite 2: "))
+             ^ (bad-whitespace)
+C: 50, 0: Exactly one space required around comparison
+    if atividade==1:
+                ^^ (bad-whitespace)
+C: 51, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 53, 0: Line too long (117/100) (line-too-long)
+C: 53, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 55, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 56, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 57, 0: Line too long (130/100) (line-too-long)
+C: 58, 0: Exactly one space required after comma
+        batalha(bixo,outro)
+                    ^ (bad-whitespace)
+C: 60, 0: Exactly one space required around comparison
+    if atividade==2:
+                ^^ (bad-whitespace)
+C: 61, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 63, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 65, 0: Line too long (139/100) (line-too-long)
+C: 65, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 68, 0: Trailing whitespace (trailing-whitespace)
+C: 69, 0: Line too long (110/100) (line-too-long)
+C: 69, 0: Exactly one space required around assignment
+    atividade=int(input("Apos ter descançado bastante agora é hora de um passeio, para passear digite 1: "))
+             ^ (bad-whitespace)
+C: 70, 0: Exactly one space required around comparison
+    if atividade==1:
+                ^^ (bad-whitespace)
+C: 71, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 73, 0: Line too long (117/100) (line-too-long)
+C: 73, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 74, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 76, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 77, 0: Exactly one space required after comma
+        batalha(bixo,outro)
+                    ^ (bad-whitespace)
+C: 78, 0: Exactly one space required after comparison
+        if Inspermons[bixo][2] <=0:
+                               ^^ (bad-whitespace)
+C: 79, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+C: 82, 0: Final newline missing (missing-final-newline)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  5, 0: Invalid constant name "s1" (invalid-name)
+C:  6, 0: Invalid constant name "s2" (invalid-name)
+C:  7, 0: Invalid constant name "s1r" (invalid-name)
+C:  8, 0: Invalid constant name "s2r" (invalid-name)
+C: 12, 0: Invalid constant name "Inspermons" (invalid-name)
+C: 13, 0: Invalid constant name "adversario" (invalid-name)
+W: 15,18: Redefining name 'outro' from outer scope (line 35) (redefined-outer-name)
+W: 15,12: Redefining name 'bixo' from outer scope (line 43) (redefined-outer-name)
+C: 15, 0: Missing function docstring (missing-docstring)
+C: 32, 0: Import "import time" should be placed at the top of the module (wrong-import-position)
+C: 33, 0: Invalid constant name "t" (invalid-name)
+C: 34, 0: Invalid constant name "x" (invalid-name)
+C: 35, 0: Invalid constant name "outro" (invalid-name)
+C: 43, 0: Invalid constant name "bixo" (invalid-name)
+
+
+Report
+======
+65 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |66     |79.52 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |8      |9.64  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |9      |10.84 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |88     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |11     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++----------------------+------------+
+|message id            |occurrences |
++======================+============+
+|bad-whitespace        |39          |
++----------------------+------------+
+|superfluous-parens    |19          |
++----------------------+------------+
+|line-too-long         |13          |
++----------------------+------------+
+|invalid-name          |10          |
++----------------------+------------+
+|invalid-encoded-data  |9           |
++----------------------+------------+
+|trailing-whitespace   |3           |
++----------------------+------------+
+|redefined-outer-name  |2           |
++----------------------+------------+
+|missing-docstring     |2           |
++----------------------+------------+
+|wrong-import-position |1           |
++----------------------+------------+
+|missing-final-newline |1           |
++----------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at -5.23/10
+
